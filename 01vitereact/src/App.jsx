@@ -1,5 +1,14 @@
+import Hello from "./Hello.jsx";
+import Chai from "./chai.jsx";
+
 function App() {
-  return <h1>Hello world | Rocky</h1>;
+  return (
+    <>
+      <Chai />
+      <h2>Hello world moto</h2>
+      <Hello></Hello>
+    </>
+  );
 }
 
 export default App;
